@@ -1,41 +1,45 @@
 # 📦 Conventional Commits
 
-Este projeto segue o padrão de commits **Conventional Commits**, que padroniza as mensagens para facilitar manutenção, leitura e automação.
+This project follows the **Conventional Commits** standard, which structures commit messages to improve maintainability, readability, and automation.
 
 ---
 
-## 🧾 Formato
-tipo(escopo): descrição
+## 🧾 Format
+
+tipo(scope): description
+
 ---
 
-### Exemplo:
+### Example:
 
 feat(auth): add login functionality
 
-## 🧩 Tipos mais usados
+---
 
-| Tipo       | Descrição                             |
-|------------|---------------------------------------|
-| feat       | Nova funcionalidade                   |
-| fix        | Correção de bug                       |
-| chore      | Configurações / dependências          |
-| refactor   | Refatoração (sem mudar comportamento) |
-| style      | Estilo (CSS, formatação)              |
-| docs       | Documentação                          |
-| test       | Testes                                |
+## 🧩 Common Types
+
+| Type     | Description                           |
+| -------- | ------------------------------------- |
+| feat     | New feature                           |
+| fix      | Bug fix                               |
+| chore    | Configuration / dependencies          |
+| refactor | Code refactoring (no behavior change) |
+| style    | Styling (CSS, formatting)             |
+| docs     | Documentation                         |
+| test     | Tests                                 |
 
 ---
 
-## 🚀 Primeiro commit
+## 🚀 First commit
 
 chore: initial commit
 
 ---
 
-## 📌 Exemplos do projeto
+## 📌 Project Examples
 
-feat(auth): create login page
-feat(auth): implement auth context
-feat(routes): add private routes
-fix(auth): handle invalid localStorage
+feat(auth): create login page  
+feat(auth): implement auth context  
+feat(routes): add private routes  
+fix(auth): handle invalid localStorage  
 chore: add react-router-dom
